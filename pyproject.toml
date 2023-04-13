@@ -9,6 +9,8 @@ packages = [{include = "music_search"}]
 [tool.poetry.dependencies]
 python = "^3.11"
 gunicorn = "^20.1.0"
+dj-database-url = "^1.3.0"
+psycopg2-binary = "^2.9.6"
 
 
 [build-system]
