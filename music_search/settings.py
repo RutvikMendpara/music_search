@@ -18,7 +18,7 @@ SECRET_KEY = 'django-insecure-4l!9la^z*y0+$be7y!q%^a17wu#h7va0!#(%w=tfqpa89oy&^l
 # DEBUG = True
 DEBUG = 'RENDER' not in os.environ
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['musicsearch-production.up.railway.app',]
 # RENDER_EXTERNAL_HOSTNAME = os.environ.get('RENDER_EXTERNAL_HOSTNAME') if RENDER_EXTERNAL_HOSTNAME: ALLOWED_HOSTS.append(RENDER_EXTERNAL_HOSTNAME)
 
 
